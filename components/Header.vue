@@ -65,26 +65,8 @@
             Pricing
           </a>
         </div>
-        <div>
-          <a
-            href="#"
-            class="
-              no-underline
-              inline-block
-              text-sm
-              px-4
-              py-2
-              leading-none
-              border
-              rounded
-              text-white
-              border-white
-              hover:border-transparent hover:text-teal hover:bg-white
-              mt-4
-              sm:mt-0
-            "
-            >Request a demo</a
-          >
+        <div class="navbar-item">
+          <a href="#" class="bc-btn">Request a demo</a>
         </div>
       </div>
     </nav>
@@ -105,6 +87,9 @@ export default {
 @import '@/assets/scss/_variables';
 .navbar {
   min-height: 3.75rem;
+  .navbar-item {
+    padding: 0.5rem 0.75rem;
+  }
 }
 .navbar-burger {
   @apply cursor-pointer ml-auto;
