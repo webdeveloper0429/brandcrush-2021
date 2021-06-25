@@ -6,6 +6,18 @@
 
 .btn {
   height: 2.125em !important;
+  &.btn-responsive {
+    height: 2.5rem !important;
+    font-size: 1.125rem !important;
+    @media (max-width: $tablet) {
+      height: 2.125em !important;
+      font-size: 0.875rem !important;
+    }
+    @media (max-width: $mobile) {
+      height: 1.875rem !important;
+      font-size: 0.875rem !important;
+    }
+  }
 }
 .btn-lg,
 .btn-group-lg > .btn {

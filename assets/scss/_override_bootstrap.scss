@@ -2,16 +2,16 @@ $grid-gutter-width: 1.25rem;
 
 $grid-breakpoints: (
   xs: 0,
-  sm: 576px,
+  sm: 320px,
   md: 768px,
-  lg: 992px,
+  // lg: 992px,
   xl: 1280px,
   // xxl: 1400px,
 );
 $container-max-widths: (
-  sm: 540px,
+  sm: 300px,
   md: 748px,
-  lg: 960px,
+  // lg: 960px,
   xl: 1260px,
   // xxl: 1320px,
 );
