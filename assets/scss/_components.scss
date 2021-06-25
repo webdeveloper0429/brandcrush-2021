@@ -1,10 +1,18 @@
-.bc-btn {
-  width: 10.625rem;
-  height: 2.125rem;
-  margin: 0 0 0 2.5rem;
-  padding: 0.375rem 1.916rem 0.375rem 2.022rem;
+.bc-btn{
+  width: 11.25rem;
+  height: 2.5rem;
+  padding: 0.563rem 2.594rem;
   border-radius: 6px;
-  background-color: $primary;
   cursor: pointer;
-  color: $white;
+  @apply bg-gray-200 text-bcCharcoal border-gray-600 border-solid border;
+  &.small{
+    width: 10.625rem;
+    height: 2.125rem;
+    padding: 0.375rem 1.916rem 0.375rem 2.022rem;
+  }
+  &.primary{
+    background-color: $primary;
+    color: $white;
+    @apply border-none;
+  }
 }

@@ -66,7 +66,7 @@
           </a>
         </div>
         <div class="navbar-item">
-          <a href="#" class="bc-btn">Request a demo</a>
+          <a href="#" class="bc-btn primary small">Request a demo</a>
         </div>
       </div>
     </nav>

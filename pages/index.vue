@@ -1,6 +1,8 @@
 <template>
-  <div class="container mx-auto">
-    <div class="bg-blue-300">body part</div>
+  <div class="bg-blue-300 h-screen">
+    <div class="container mx-auto">
+      <div class="">body part</div>
+    </div>
   </div>
 </template>
 
