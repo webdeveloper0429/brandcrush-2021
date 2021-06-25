@@ -1,11 +1,15 @@
 <template>
-  <div class="">
-    <div class="container">
-      <div class="">body part</div>
-    </div>
+  <div class="homepage">
+    <HomepageBanner />
+    <div class="container"></div>
   </div>
 </template>
 
 <script>
-export default {}
+import HomepageBanner from '@/components/homepage/HomepageBanner.vue'
+export default {
+  components: {
+    HomepageBanner,
+  },
+}
 </script>
