@@ -1,0 +1,35 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1280px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 758px,
+  lg: 960px,
+  xl: 1270px,
+);
+
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+);
+
+$btn-border-radius: 6px;
+$btn-border-radius-lg: 6px;
+$btn-border-radius-sm: 6px;
+
+$btn-font-weight: bold;
+$btn-font-family: Karla;
+
+$btn-font-size: 1.125rem;
+$btn-line-height: 1.22;
+
+$btn-font-size-sm: 0.875rem;
+$btn-line-height-sm: 1.57;
+
+$btn-font-size-lg: 1.25rem;
+$btn-line-height-lg: 1.1;
