@@ -13,4 +13,5 @@ module.exports = {
   rules: {
     'max-len': [1, { code: 240, tabWidth: 2, ignoreStrings: true }],
   },
+  ignorePatterns: ['plugins/bootstrap.bundle.min.js'],
 }
