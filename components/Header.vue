@@ -1,31 +1,57 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" variant="white">
-      <b-navbar-brand href="#">
-        <img src="/images/logo.svg" alt="Brandcrush" width="151" height="24" />
-      </b-navbar-brand>
-
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
-      <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav>
-          <b-nav-item href="#">Partners</b-nav-item>
-          <b-nav-item-dropdown text="Brands" left>
-            <b-dropdown-item href="#">Brands</b-dropdown-item>
-            <b-dropdown-item href="#">Brandcrush for agencies</b-dropdown-item>
-          </b-nav-item-dropdown>
-          <b-nav-item href="#">Pricing</b-nav-item>
-        </b-navbar-nav>
-
-        <!-- Right aligned nav items -->
-        <b-navbar-nav class="ml-auto">
-          <b-nav-item href="#">Login</b-nav-item>
-          <b-nav-form class="ml-3">
-            <b-button size="sm" variant="primary" class="my-2 my-sm-0">Request a demo</b-button>
-          </b-nav-form>
-        </b-navbar-nav>
-      </b-collapse>
-    </b-navbar>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/images/logo.svg" alt="Brandcrush" width="151" height="24" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Partners</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                id="navbarDropdown"
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Brands
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Brands</a></li>
+                <li><a class="dropdown-item" href="#">Brandcrush for agencies</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Login</a>
+            </li>
+          </ul>
+          <form class="d-flex ms-3">
+            <button class="btn btn-primary">Request a demo</button>
+          </form>
+        </div>
+      </div>
+    </nav>
   </div>
 </template>
 
@@ -61,9 +87,6 @@ export default {
 }
 .btn {
   min-width: 10.625rem;
-}
-.dropdown-menu {
-  margin: 1rem;
 }
 .navbar::v-deep .dropdown-item {
   font-family: Karla;

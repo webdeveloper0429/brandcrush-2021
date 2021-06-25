@@ -5,5 +5,13 @@
 }
 
 .btn {
-  height: 2.5rem;
+  height: 2.125em !important;
+}
+.btn-lg,
+.btn-group-lg > .btn {
+  height: 2.5rem !important;
+}
+.btn-sm,
+.btn-group-sm > .btn {
+  height: 1.875rem !important;
 }

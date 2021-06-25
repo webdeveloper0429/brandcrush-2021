@@ -1,19 +1,19 @@
 <template>
   <section class="banner-section-w">
-    <b-container>
+    <div class="container">
       <div class="banner-section">
         <div class="title">Unlock and grow media revenue with one simple platform</div>
         <div class="description">
           Transform the potential of your retail media and partnerships with a powerful end-to-end platform.
         </div>
         <div class="action-w">
-          <b-button variant="secondary">Start today</b-button>
-          <b-button variant="outline-white">Book a demo</b-button>
+          <button class="btn btn-lg btn-secondary">Start today</button>
+          <button class="btn btn-lg btn-outline-white">Book a demo</button>
         </div>
         <div class="decorator-w"></div>
         <div class="image-w"></div>
       </div>
-    </b-container>
+    </div>
   </section>
 </template>
 
@@ -22,8 +22,6 @@
 .banner-section-w {
   background: $bcteal;
   padding: 5.5rem 3.75rem 5rem;
-  .banner-section {
-  }
   .title {
     max-width: 36.25rem;
     font-family: CocogooseProCm;
