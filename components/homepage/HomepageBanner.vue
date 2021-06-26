@@ -7,8 +7,8 @@
           Transform the potential of your retail media and partnerships with a powerful end-to-end platform.
         </div>
         <div class="button-w">
-          <button class="btn bc-btn btn-secondary">Start today</button>
-          <button class="btn bc-btn btn-outline-white">Book a demo</button>
+          <button class="btn bc-btn-responsive btn-secondary">Start today</button>
+          <button class="btn bc-btn-responsive btn-outline-white">Book a demo</button>
         </div>
         <div class="decorator-w">
           <img src="/images/decorator/decorator-1.svg" alt="decorator-1.svg" width="743" height="258" />

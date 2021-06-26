@@ -4,15 +4,30 @@
   box-shadow: none !important;
 }
 
-.bc-btn {
+.btn{
+  height: 2.125rem;
+  font-size: 0.875rem;
+}
+.btn-lg,
+.btn-group-lg > .btn {
+  height: 2.5rem !important;
+  font-size: 1.125rem !important;
+}
+.btn-sm,
+.btn-group-sm > .btn {
   height: 1.875rem !important;
   font-size: 0.875rem !important;
+}
+
+.bc-btn-responsive {
+  height: 1.875rem;
+  font-size: 0.875rem;
   @media (min-width: $md) {
-    height: 2.125em !important;
-    font-size: 0.875rem !important;
+    height: 2.125rem;
+    font-size: 0.875rem;
   }
   @media (min-width: $xl) {
-    height: 2.5rem !important;
-    font-size: 1.125rem !important;
+    height: 2.5rem;
+    font-size: 1.125rem;
   }
 }

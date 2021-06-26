@@ -41,7 +41,7 @@
               <a class="nav-link" href="#">Pricing</a>
             </li>
           </ul>
-          <ul class="navbar-nav mb-2 mb-lg-0">
+          <ul class="navbar-nav mb-2 mb-xl-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Login</a>
             </li>
