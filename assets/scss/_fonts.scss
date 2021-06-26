@@ -43,128 +43,97 @@
   font-stretch: normal;
 }
 
-.desktop-h1 {
+.bc-h1 {
   font-family: CocogooseProCm, sans-serif;
-  font-size: 46px;
+  font-size: 2.875rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.17;
   letter-spacing: 0.5px;
+  @media (max-width: $tablet) {
+    font-size: 2rem;
+    line-height: 1.19;
+    letter-spacing: 0.35px;
+    text-align: center;
+  }
 }
 
-.mob-h1 {
-  font-family: CocogooseProCm, sans-serif;
-  font-size: 32px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.19;
-  letter-spacing: 0.35px;
-  text-align: center;
-}
-
-.desktop-h3 {
-  font-family: CocogooseProCm, sans-serif;
-  font-size: 32px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.19;
-  letter-spacing: 0.5px;
-  text-align: center;
-}
-
-.desktop-h2 {
+.bc-h2 {
   font-family: Poppins, sans-serif;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.21;
   letter-spacing: normal;
   text-align: center;
+  @media (max-width: $tablet) {
+    font-size: 1.125rem;
+    line-height: 1.33;
+    text-align: center;
+  }
 }
 
-.mob-h3 {
+.bc-h3 {
   font-family: CocogooseProCm, sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.2;
-  letter-spacing: 0.31px;
+  line-height: 1.19;
+  letter-spacing: 0.5px;
   text-align: center;
+  @media (max-width: $tablet) {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    letter-spacing: 0.31px;
+    text-align: center;
+  }
 }
 
-.desktop-para-lrg {
-  font-family: Poppins, sans-serif;
-  font-size: 20px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.4;
-  letter-spacing: normal;
-}
-
-.mob-h2 {
-  font-family: Poppins, sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  text-align: center;
-}
-
-.desktop-h4 {
+.bc-h4 {
   font-family: CocogooseProCm, sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.25;
   letter-spacing: 1px;
+  @media (max-width: $tablet) {
+    font-size: 0.75rem;
+    line-height: 1.42;
+    letter-spacing: 0.75px;
+  }
 }
 
-.desktop-para {
+.bc-para-lrg {
   font-family: Poppins, sans-serif;
-  font-size: 16px;
+  font-size: 1.25rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  @media (max-width: $tablet) {
+    font-size: 0.8125rem;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: center;
+  }
+}
+
+.bc-para {
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.38;
   letter-spacing: normal;
-}
-
-.mob-para-lrg {
-  font-family: Poppins, sans-serif;
-  font-size: 13px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: center;
-}
-
-.mob-h4 {
-  font-family: CocogooseProCm, sans-serif;
-  font-size: 12px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.42;
-  letter-spacing: 0.75px;
-}
-
-.mob-para {
-  font-family: Poppins, sans-serif;
-  font-size: 12px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.42;
-  letter-spacing: normal;
+  @media (max-width: $tablet) {
+    font-size: 0.75rem;
+    line-height: 1.42;
+    letter-spacing: normal;
+  }
 }

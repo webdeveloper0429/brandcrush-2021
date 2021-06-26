@@ -2,8 +2,8 @@
   <section class="banner-section-w">
     <div class="container">
       <div class="banner-section">
-        <div class="title">Unlock and grow media revenue with one simple platform</div>
-        <div class="description">
+        <div class="title bc-h1 text-white">Unlock and grow media revenue with one simple platform</div>
+        <div class="description bc-para-lrg text-white">
           Transform the potential of your retail media and partnerships with a powerful end-to-end platform.
         </div>
         <div class="button-w">
@@ -41,20 +41,9 @@
     }
     .title {
       max-width: 36.25rem;
-      font-family: CocogooseProCm;
-      font-size: 2.875rem;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.17;
-      letter-spacing: 0.5px;
-      color: $white;
       margin-bottom: 1.438rem;
       @media (max-width: $tablet) {
         max-width: 26.563rem;
-        font-size: 2rem;
-        line-height: 1.19;
-        letter-spacing: 0.35px;
         margin-bottom: 1.25rem;
       }
       @media (max-width: $mobile) {
@@ -64,19 +53,9 @@
     }
     .description {
       max-width: 34rem;
-      font-family: Poppins;
-      font-size: 1.25rem;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.4;
-      letter-spacing: normal;
-      color: $white;
       margin-bottom: 5.625rem;
       @media (max-width: $tablet) {
         max-width: 24rem;
-        font-size: 0.813rem;
-        line-height: 1.38;
         margin-bottom: 2.5rem;
       }
       @media (max-width: $mobile) {
