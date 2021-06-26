@@ -92,6 +92,7 @@ export default {
         margin-top: 1.563rem;
         @media (min-width: $xl) {
           margin-top: 2.5rem;
+          font-size: 1.5rem;
         }
       }
     }
