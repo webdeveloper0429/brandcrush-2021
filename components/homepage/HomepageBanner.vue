@@ -7,8 +7,8 @@
           Transform the potential of your retail media and partnerships with a powerful end-to-end platform.
         </div>
         <div class="button-w">
-          <button class="btn btn-responsive btn-secondary">Start today</button>
-          <button class="btn btn-responsive btn-outline-white">Book a demo</button>
+          <button class="btn bc-btn btn-secondary">Start today</button>
+          <button class="btn bc-btn btn-outline-white">Book a demo</button>
         </div>
         <div class="decorator-w">
           <img src="/images/decorator/decorator-1.svg" alt="decorator-1.svg" width="743" height="258" />
@@ -30,93 +30,100 @@
 @import '@/assets/scss/_variables';
 .banner-section-w {
   background: $bcteal;
+  margin-bottom: 14rem;
+  @media (min-width: $md) {
+    margin-bottom: 6.25rem;
+  }
+  @media (min-width: $xl) {
+    margin-bottom: 10rem;
+  }
   .banner-section {
-    padding: 5.5rem 2.5rem 5rem;
+    padding: 2.5rem 0.625rem 6.375rem;
     position: relative;
-    @media (max-width: $tablet) {
+
+    @media (min-width: $md) {
       padding: 3.125rem 1.25rem 8.375rem;
     }
-    @media (max-width: $mobile) {
-      padding: 2.5rem 0.625rem 6.375rem;
+    @media (min-width: $xl) {
+      padding: 5.5rem 2.5rem 5rem;
     }
     .title {
-      max-width: 36.25rem;
-      margin-bottom: 1.438rem;
-      @media (max-width: $tablet) {
+      max-width: 16.25rem;
+      margin-bottom: 1.25rem;
+      @media (min-width: $md) {
         max-width: 26.563rem;
-        margin-bottom: 1.25rem;
       }
-      @media (max-width: $mobile) {
-        max-width: 16.25rem;
-        text-align: center;
+      @media (min-width: $xl) {
+        max-width: 36.25rem;
+        margin-bottom: 1.438rem;
       }
     }
     .description {
-      max-width: 34rem;
-      margin-bottom: 5.625rem;
-      @media (max-width: $tablet) {
+      max-width: 16.25rem;
+      margin-bottom: 2.5rem;
+      @media (min-width: $md) {
         max-width: 24rem;
-        margin-bottom: 2.5rem;
       }
-      @media (max-width: $mobile) {
-        max-width: 16.25rem;
-        text-align: center;
+      @media (min-width: $xl) {
+        max-width: 34rem;
+        margin-bottom: 5.625rem;
       }
     }
     .button-w {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
       .btn {
-        min-width: 11.25rem;
-        margin-right: $spacing;
+        width: 7.5rem;
+        margin: 0;
       }
-      @media (max-width: $tablet) {
+      @media (min-width: $md) {
+        justify-content: flex-start;
         .btn {
-          min-width: 7.5rem;
+          margin-right: $spacing;
         }
       }
-      @media (max-width: $mobile) {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+      @media (min-width: $xl) {
         .btn {
-          margin: 0;
+          width: 11.25rem;
         }
       }
     }
     .decorator-w {
       position: absolute;
-      right: -1.25rem;
-      bottom: -2rem;
+      right: 0rem;
+      bottom: -12rem;
       img {
-        width: 46.438rem;
+        width: 28.375rem;
         height: auto;
       }
-      @media (max-width: $tablet) {
-        img {
-          width: 28.375rem;
-        }
+      @media (min-width: $md) {
+        right: -1.25rem;
+        bottom: -2rem;
       }
-      @media (max-width: $mobile) {
-        right: 0rem;
-        bottom: -12rem;
+      @media (min-width: $xl) {
+        img {
+          width: 46.438rem;
+        }
       }
     }
     .image-w {
       position: absolute;
-      right: 4.375rem;
-      bottom: 0;
+      right: 0rem;
+      bottom: -10.75rem;
       img {
-        width: 29.938rem;
+        width: 20rem;
         height: auto;
       }
-      @media (max-width: $tablet) {
+      @media (min-width: $md) {
         right: 0rem;
-        img {
-          width: 20rem;
-        }
+        bottom: 0;
       }
-      @media (max-width: $mobile) {
-        right: 0rem;
-        bottom: -10.75rem;
+      @media (min-width: $xl) {
+        right: 4.375rem;
+        img {
+          width: 29.938rem;
+        }
       }
     }
   }
