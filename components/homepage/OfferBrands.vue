@@ -54,6 +54,11 @@ export default {
 <style lang="scss" scoped>
 @import '@/assets/scss/_variables';
 .offer-brands-section-w {
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
+  @media (min-width: $xl) {
+    margin-bottom: 5.5rem;
+  }
   .offer-brands-section {
     .title {
       margin-bottom: 1rem;
