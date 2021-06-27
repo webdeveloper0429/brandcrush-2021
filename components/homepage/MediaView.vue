@@ -8,8 +8,10 @@
       </div>
       <div class="col-12 col-md-5" :class="rightImage ? 'order-md-1' : ''">
         <div class="text-w" :class="rightImage ? 'ms-auto' : ''">
-          <div class="title bc-h2 text-secondary">{{ title }}</div>
-          <div class="description bc-para text-bccharcoal">{{ description }}</div>
+          <slot name="check-list">
+            <div class="title bc-h2 text-secondary">{{ title }}</div>
+            <div class="description bc-para text-bccharcoal">{{ description }}</div>
+          </slot>
         </div>
       </div>
     </div>
@@ -57,9 +59,9 @@ export default {
       margin-top: 3.125rem;
       max-width: 14.688rem;
     }
-    @media (min-width: $md) {
+    @media (min-width: $xl) {
       margin-top: 7.5rem;
-      max-width: 18.375rem;
+      max-width: 21.375rem;
       margin-left: 3.5rem;
       margin-right: 3.5rem;
     }
@@ -69,14 +71,17 @@ export default {
       @media (min-width: $md) {
         margin-bottom: 1.25rem;
         text-align: unset;
+        max-width: 14.688rem;
       }
     }
     .description {
-      max-width: 16.25rem;
-      // margin-bottom: 2.188rem;
       text-align: center;
       @media (min-width: $md) {
         text-align: unset;
+        max-width: 14.688rem;
+      }
+      @media (min-width: $xl) {
+        max-width: 21.375rem;
       }
     }
   }

@@ -23,6 +23,7 @@
         </div>
       </div>
     </div>
+    <TrustedBrands />
   </div>
 </template>
 
@@ -32,6 +33,7 @@ import OfferBrands from '@/components/homepage/OfferBrands.vue'
 import JoinNetwork from '@/components/homepage/JoinNetwork.vue'
 import MediaView from '@/components/homepage/MediaView.vue'
 import StartBookButtons from '@/components/homepage/StartBookButtons.vue'
+import TrustedBrands from '@/components/homepage/TrustedBrands.vue'
 
 export default {
   components: {
@@ -40,6 +42,7 @@ export default {
     JoinNetwork,
     MediaView,
     StartBookButtons,
+    TrustedBrands,
   },
   data() {
     return {

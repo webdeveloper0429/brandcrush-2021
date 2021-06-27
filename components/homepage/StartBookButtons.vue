@@ -1,5 +1,5 @@
 <template>
-  <div class="start-book-buttons-w d-flex align-items-center justify-content-center my-4">
+  <div class="start-book-buttons-w d-flex align-items-center justify-content-center my-3">
     <button class="btn responsive btn-secondary">Start today</button>
     <button class="btn responsive btn-outline-secondary">Book a demo</button>
   </div>
