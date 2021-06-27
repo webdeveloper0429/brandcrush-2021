@@ -24,6 +24,7 @@
       </div>
     </div>
     <TrustedBrands />
+    <YourMedia />
   </div>
 </template>
 
@@ -34,6 +35,7 @@ import JoinNetwork from '@/components/homepage/JoinNetwork.vue'
 import MediaView from '@/components/homepage/MediaView.vue'
 import StartBookButtons from '@/components/homepage/StartBookButtons.vue'
 import TrustedBrands from '@/components/homepage/TrustedBrands.vue'
+import YourMedia from '@/components/homepage/YourMedia.vue'
 
 export default {
   components: {
@@ -43,6 +45,7 @@ export default {
     MediaView,
     StartBookButtons,
     TrustedBrands,
+    YourMedia,
   },
   data() {
     return {
