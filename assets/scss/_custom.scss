@@ -1,5 +1,4 @@
-.btn:focus,
-.btn:active {
+.btn:focus, .btn:active {
   outline: none !important;
   box-shadow: none !important;
 }
@@ -30,4 +29,8 @@
     height: 2.5rem;
     font-size: 1.125rem;
   }
+}
+
+hr{
+  border: 1px solid #888887;
 }
