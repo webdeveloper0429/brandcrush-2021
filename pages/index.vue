@@ -77,6 +77,13 @@ export default {
 <style lang="scss" scoped>
 @import '@/assets/scss/_variables';
 .media-section-w {
+  margin-bottom: 3.75rem;
+  @media (min-width: $md) {
+    margin-bottom: 4.375rem;
+  }
+  @media (min-width: $xl) {
+    margin-bottom: 7.5rem;
+  }
   .media-section {
     .title {
       margin-top: 1rem;
