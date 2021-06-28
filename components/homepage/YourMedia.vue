@@ -58,8 +58,16 @@
     }
     .button-w {
       text-align: center;
+      .btn {
+        min-width: 15rem;
+      }
       @media (min-width: $md) {
         text-align: unset;
+      }
+      @media (min-width: $xl) {
+        .btn {
+          min-width: 18.438rem;
+        }
       }
     }
     .decorator-w {

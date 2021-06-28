@@ -58,9 +58,15 @@
                     </div>
                     <div class="col-12 col-md-4 col-xl-12">
                       <div class="icon-w">
-                        <img src="/images/facebook.svg" alt="facebook.svg" />
-                        <img src="/images/insta.svg" alt="insta.svg" />
-                        <img src="/images/linked-in.svg" alt="linked-in.svg" />
+                        <a href="#">
+                          <img src="/images/facebook.svg" alt="facebook.svg" />
+                        </a>
+                        <a href="#">
+                          <img src="/images/insta.svg" alt="insta.svg" />
+                        </a>
+                        <a href="#">
+                          <img src="/images/linked-in.svg" alt="linked-in.svg" />
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -249,6 +255,9 @@ footer {
     .content-w {
       margin-top: 1.844rem;
       margin-bottom: 3rem;
+      @media (min-width: $xl) {
+        margin-top: 3rem;
+      }
       .links-w {
         .links-block {
           margin-bottom: 3.125rem;
